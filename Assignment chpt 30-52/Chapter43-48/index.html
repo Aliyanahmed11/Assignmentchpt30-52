@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#" onclick="showAlert()">Click me</a>
+
+
+    <img src="mobile1.jpg" onclick="showMessage()" alt="Mobile Image">
+
+
+    <table id="studentTable">
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <!-- Add more rows as needed -->
+    </table>
+
+
+    <img id="myImage" src="image1.jpg" onmouseover="changeImage('image2.jpg')" onmouseout="changeImage('image1.jpg')">
+    
+
+    <button onclick="increaseCounter()">Increase</button>
+    <span id="counter">0</span>
+    <button onclick="decreaseCounter()">Decrease</button>
+    
+
+
+</body>
+<script src="main.js"></script>
+</html>
